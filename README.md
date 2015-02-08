@@ -1,7 +1,6 @@
 # Pysco68.SignalR.HawkHandler
 
-Enables you to use the Hawk authentication scheme for SignalR connections. This is particularly convinient on endpoints that use this scheme anyway.
-No server-side modification are required (beside taking care of the order in the OWIN pipeline => not include SignalR prior to the Hawk authentication middleware).
+Enables you to use the Hawk authentication scheme for SignalR connections from .NET client. No server-side modification are required (beside taking care of the order in the OWIN pipeline => not include SignalR prior to the Hawk authentication middleware).
 
 ## Usage
 
@@ -28,7 +27,7 @@ await hubConnection.Start(httpClient);
 
 See LICENCE file.
 
-The class `Disposable` is original work from Microsoft Open Technologies, Inc. and can be found in the SignalR project. It is licensed under Apache License, Version 2.0.
+The class `Disposer` is original work from Microsoft Open Technologies, Inc. and can be found in the SignalR project. It is licensed under Apache License, Version 2.0.
 
 ## Help / Contribution
 
