@@ -4,6 +4,12 @@ Enables you to use the Hawk authentication scheme for SignalR connections from .
 
 ## Usage
 
+You can install the HawkHandler from Nuget:
+
+```
+Install-Package Pysco68.SignalR.HawkClient
+```
+
 Please take note that this library relies on `Thinktecture.IdentityModel.Hawk` for implementing the actual Hawk authentication.
 
 ```C#
